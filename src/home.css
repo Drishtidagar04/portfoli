@@ -1,0 +1,324 @@
+/* home.css 
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://img.freepik.com/free-vector/creative-geometric-design-space_53876-89787.jpg');  Replace with the path to your background image 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  .home-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+    color: white;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+    font-size: 16px;
+  }
+  
+  .nav-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .hero-section {
+    margin-top: 20px;
+  }
+  
+  
+  .about-me-section {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .about-me-section img {
+    border-radius: 50%;
+    margin-right: 80px;
+    width: 300px;  Adjust the width to your preference 
+    height: 300px;
+  }
+  
+  
+  .footer {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .footer a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+  }
+  */
+
+/* home.css */
+
+/* Overall Page Styling */
+.home-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Hero Section Styling */
+  .hero-section {
+ /*   background-image:('url('https://img.freepik.com/free-vector/creative-geometric-design-space_53876-89787.jpg')'); /* Add your hero background image path */
+ background: linear-gradient(to right, #3494e6, #ec6ead); /* Gradient background */
+ color: #fff; /* Text color for better contrast */
+ padding: 50px;
+ text-align: center;
+  }
+  
+  .hero-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  .hero-section p {
+    font-size: 1.2em;
+  }
+  
+  /* About Me Section Styling 
+  .about-me-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+  }*/
+  .about-me-section {
+    background: url('./background.jpg') center/cover; /* Replace 'background.jpg' with your image */
+    color: #333; /* Text color for better readability */
+    padding: 50px;
+    text-align: center;
+  }
+  
+  /* Skills Section (Add your styles here) */
+  
+  
+  .about-me-section img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .about-me-section p {
+    flex: 1;
+    margin-left: 20px;
+    font-size: 1.2em;
+  }
+  
+  /* Skills Section Styling */
+ /* home.css */
+
+/* Add these styles to the existing home.css file */
+
+/* Skills Section */
+.skills-section {
+    margin-top: 40px;
+    text-align: center; /* Center align the content */
+  }
+  
+  .skills-section h3 {
+    font-size: 36px; /* Increase the heading size */
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .skills-section p {
+    font-size: 18px; /* Increase the paragraph size */
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .skills-link {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #007bff; /* Set the background color */
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .skills-link:hover {
+    background-color: #0056b3; /* Change the background color on hover */
+  }
+  
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .skill-item {
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .skill-item:hover {
+    transform: scale(1.05);
+  }
+  .introduction-section {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .introduction-section h3 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .introduction-section p {
+    font-size: 1.2em;
+  }
+  
+  /* Call-to-Action Section */
+  .cta-section {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .cta-section h3 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .cta-section p {
+    font-size: 1.2em;
+  }
+  
+  .cta-link {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .cta-link:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  /* Contact Section Styling */
+  .contact-section {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .contact-section h3 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .contact-section p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .contact-link {
+    display: inline-block;
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .contact-link:hover {
+    background-color: #27ae60;
+  }
+  
+  /* Footer Styling */
+  .footer {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  
+  @media only screen and (max-width: 600px) {
+    .hero-section {
+      padding: 30px;
+    }
+  
+    .hero-section h2 {
+      font-size: 2em;
+    }
+  
+    .hero-section p {
+      font-size: 1em;
+    }
+  
+    .about-me-section {
+      padding: 30px;
+    }
+    .about-me-section img {
+        width: 100%; 
+        max-width: none; 
+      }
+  
+    .about-me-section img {
+      width: 100%;
+      max-width: 300px;
+      margin-bottom: 20px;
+    }
+  
+    .about-me-section p {
+      font-size: 1em;
+    }
+  
+    .skills-section h3,
+    .contact-section h3 {
+      font-size: 1.5em;
+    }
+  
+    .skills-section p,
+    .contact-section p {
+      font-size: 1em;
+    }
+  
+    .skill-item {
+      flex: 0 0 100%;
+      margin-bottom: 10px;
+    }
+  }

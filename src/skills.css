@@ -1,0 +1,40 @@
+/* Skills.css */
+
+.skills-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .category-container {
+    margin-bottom: 20px;
+  }
+  
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .skill-item {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon {
+    margin-right: 10px;
+   
+    font-size: 24px; /* Adjust the font size as needed */
+      
+  }
+  @media only screen and (max-width: 600px) {
+    .skill-item {
+      font-size: 14px; /* Adjust font size for mobile */
+    }
+  }

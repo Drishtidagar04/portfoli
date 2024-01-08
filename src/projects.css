@@ -1,0 +1,77 @@
+/* projects.css */
+
+.project {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    transition: box-shadow 0.3s ease-in-out;
+    animation: fadeIn 0.5s ease-out; /* Fade-in animation */
+  }
+  
+  .project:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .project h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .project p {
+    color: #555;
+  }
+  
+  .project h4 {
+    font-size: 1.2rem;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  .project ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .project ul li {
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  /* Animation keyframes */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px); /* Optional: Add a slight upward movement */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Add more styles as needed */
+  
+  /* Optional: Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Optional: Add some spacing */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
